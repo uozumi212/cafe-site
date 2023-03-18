@@ -1,0 +1,163 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cofy-logo {
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+
+.ul-wrap {
+    display: flex;
+    margin-top: 30px;
+
+
+}
+
+.li-item {
+    margin-right: 30px;
+}
+
+.li-item:hover {
+    color: orange;
+}
+
+.cafe-img {
+    margin-top: 20px;
+    background-image: url(/Users/uozumikazuma/Desktop/cafe/img/pancake.jpg);
+    height: 600px;
+
+    object-fit: cover;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.section-wrap {
+    text-align: center;
+    background-color: #faf0e6;
+    height: 300px;
+}
+
+.concept {
+    color: khaki;
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+.concept-text {
+    font-size: 25px;
+    margin-top: 30px;
+    color: #ffd700;
+}
+
+.title {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 20px;
+    color: darkorange;
+}
+
+.menu {
+    margin-top: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.espleso:hover {
+    opacity: 0.7;
+}
+
+.pancake:hover {
+    opacity: 0.7;
+}
+
+.ecrea:hover {
+    opacity: 0.7;
+}
+
+.menu img {
+    width: 300px;
+    height: 300px;
+}
+
+.fruits {
+    margin-top: 100px;
+    background-image: url(/Users/uozumikazuma/Desktop/cafe/img/フルーツ.jpg);
+    background-attachment: fixed;
+    height: 600px;
+    position: relative;
+}
+
+.fruits-text {
+    position: absolute;
+    top: 50%;
+    left: 34%;
+    color: #f8f8ff;
+    font-size: 40px;
+}
+
+.access {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    background-color: #fffaf0;
+}
+
+.access-table {
+    margin-left: 60px;
+    width: 600px;
+    margin-top: 20px;
+
+}
+
+.access-row {
+    border-bottom: solid 1px #000;
+
+}
+
+.subject {
+    font-size: 20px;
+    padding-top: 18px;
+}
+
+.data {
+    font-size: 20px;
+    padding-top: 18px;
+}
+
+.footer {
+    background-color: #f0f8ff;
+    padding: 30px 0;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.nav-access {
+    margin-right: 60px;
+    font-size: 18px;
+    color: gray;
+    margin-top: 30px;
+}
+
+.nav-access:hover {
+    color: skyblue;
+}
+
+.copy-right {
+    text-align: center;
+    padding-top: 60px;
+}
